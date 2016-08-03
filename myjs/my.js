@@ -12,6 +12,6 @@ function contact(){
 
     }
 function resume(){
-    $('#content').load('Resume.html').fadeIn('slow');
+    $('#content').load('slider.html').fadeIn('slow');
 
     }
