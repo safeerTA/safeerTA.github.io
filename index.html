@@ -5,6 +5,7 @@
         <script src="jquery-1.12.0.min.js"></script>
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="mycss/screen.css">
+        <link rel="stylesheet" href="mycss/menu-nav.css">
         <script src="js/bootstrap.min.js"></script>
         <script src="myjs/my.js"></script>
     <!--link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -14,29 +15,22 @@
 <body >
 
 <!--navbar-->
-<!--navbar-->
-<div >
-    <a id="Products" href="#Products" onClick="products();" title="here">
-        <i class="glyphicon glyphicon-home navrow">
-        </i>
-    </a>
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+  <div class="overlay-content">
+    <a href="#">About</a>
+    <a href="#">Services</a>
+    <a href="#">Clients</a>
+    <a href="#">Contact</a>
+  </div>
 </div>
- <!--navbar ends-->
-<!--navbar ends-->
-<div id ="whole" >
-
+<span style="font-size:30px;cursor:pointer" onclick="openNav()"> &nbsp ☰</span>
+</div>
 <div id="content">
 </div>
-<div id="submenu" class="menu-marg" style="background:transparent;">
-    <div class="col-sm-4 col-md-offset-4">
-        <i class="glyphicon glyphicon-home navrow icon-pad">
-        </i>
-        <i class="glyphicon glyphicon-home navrow ">
-        </i>
-        <i class="glyphicon glyphicon-home navrow ">
-        </i>       
-    </div> 
+
 </div>
-</div>
+
 </body>
 </html>
+
