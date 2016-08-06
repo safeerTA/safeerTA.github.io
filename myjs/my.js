@@ -8,13 +8,13 @@ $(document).ready(function() {
 function products(){
 	 	//$('#submenu').toggle('fast');
     $('#content').load('slider.html').fadeIn('slow');
-
+    closeNav();
     //$('#content').load('slider.html').fadeIn('slow');
 
 	}
 function contact(){
     $('#content').load('Contact.html').fadeIn('slow');
-
+    closeNav();
     }
 function resume(){
     $('#content').load('Resume.html').fadeIn('slow');
