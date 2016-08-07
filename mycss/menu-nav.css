@@ -5,6 +5,12 @@ body {
     background: linear-gradient(-75deg, rgb(183, 187, 235),rgb(246, 244, 249));
 }
 
+.token {
+    border:4px solid rgb(140, 173, 216);
+    height:30%;
+    padding:25px;
+}
+
 .overlay {
     height: 100%;
     width: 0;
