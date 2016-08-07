@@ -1,6 +1,8 @@
 body {
+    padding-top: 50px;
     margin: 0;
     font-family: 'Lato', sans-serif;
+    background: linear-gradient(-75deg, rgb(183, 187, 235),rgb(246, 244, 249));
 }
 
 .overlay {
