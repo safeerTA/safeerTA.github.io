@@ -2,7 +2,6 @@ $(document).ready(function() {
  // executes when HTML-Document is loaded and DOM is ready
  	//$('#submenu').hide();
     $('#content').load('slider.html').fadeIn('slow');
-
     })
 
 function products(){
@@ -16,9 +15,9 @@ function contact(){
     $('#content').load('Contact.html').fadeIn('slow');
     closeNav();
     }
-function resume(){
-    $('#content').load('Resume.html').fadeIn('slow');
-
+function news(){
+    $('#content').load('News.html').fadeIn('slow');
+    closeNav();
     }
 function openNav() {
     document.getElementById("myNav").style.width = "100%";
